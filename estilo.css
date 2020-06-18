@@ -1,16 +1,15 @@
-.Sobre {
-  background-image: url(./Imagens/puc.jpg);
-  background-size: cover;
-  height: 20%;
-}
-
 nav {
-  height: 80px;
+  position: fixed;
+  top: 0;
+  height: 65px;
   width: 100%;
+  background: white;
+  overflow: hidden;
 }
 
 nav a.setorPagina {
   font-family: MuseoModerno;
+  font-size: 22px;
   float: left;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -55,6 +54,7 @@ main section a figure {
   text-decoration: none;
   border: 1px solid black;
   border-radius: 10px;
+  height: 273.4px;
 }
 
 main section a figure img {
@@ -63,8 +63,63 @@ main section a figure img {
   padding-top: 25px;
 }
 
+.Descrição {
+  background-color: lightgray;
+  vertical-align: middle;
+}
+
 h2 {
   font-family: Staatliches;
   text-align: center;
   font-size: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+.imagem{
+  width: 300px;
+  height: 300px;
+  padding: 0px 100px 36px 100px;
+  float: left;
+  border-radius: 50%;
+}
+
+.texto{
+  height: 300px;
+  margin: 0px;
+  padding-right: 100px;
+  padding-bottom: 36px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Balsamiq Sans;
+  font-size: 24px;
+  text-align: justify;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-family: Balsamiq Sans;
+  font-size: 18px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+.Sobre {
+  display: inline-block;
+  width: 100%;
+}
+
+.quemSou{
+  max-width: 50%;
+}
+
+.quemSou, .contato{
+  display: inline;
+  float: left;
+  padding-left: 30px;
 }
