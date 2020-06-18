@@ -115,11 +115,27 @@ h3{
 }
 
 .quemSou{
-  max-width: 50%;
+  float: left;
+  width: 30%;
+}
+
+.contato{
+  float: right;
 }
 
 .quemSou, .contato{
   display: inline;
-  float: left;
-  padding-left: 30px;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 28px;
+  text-align: justify;
+}
+
+figure:hover{
+  background-color: lightgray;
+}
+
+body {
+  margin: 0px;
 }
