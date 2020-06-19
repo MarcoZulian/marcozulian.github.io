@@ -1,9 +1,13 @@
+body{
+  margin: 0;
+}
+
 nav {
   position: fixed;
   top: 0;
   height: 65px;
   width: 100%;
-  background: #D8EBA9;
+  background: #F4F4F4;
   overflow: hidden;
 }
 
@@ -19,7 +23,7 @@ nav a.setorPagina {
 }
 
 nav a.redesSociais {
-  background-color: #D8EBA9;
+  background-color: #F4F4F4;
   float: right;
   margin-right: 20px;
   margin-top: 15px;
@@ -28,18 +32,52 @@ nav a.redesSociais {
 
 
 .Descrição {
-  background-color: #DBD1A2;
+  background-color: #F4F4F4;
   vertical-align: middle;
 }
 
 .Descrição h2{
-  margin-top: 35px;
+  margin-top: 36px;
 }
 
 
-.DescriçãoProjeto {
-  background-color: #F5F1A2;
+.DescriçãoProjeto1 {
+  background-color: #D7CEC7;
   vertical-align: middle;
+  display: inline-block;
+}
+
+.DescriçãoProjeto1-2 {
+  background-color: #D7CEC7;
+  vertical-align: middle;
+}
+
+.DescriçãoProjeto1-3 {
+  background-color: #F8EEE7;
+  vertical-align: middle;
+}
+
+.DescriçãoProjeto2 {
+  background-color: #F4F4F4;
+  vertical-align: middle;
+}
+
+.DescriçãoProjeto2-2 {
+  background-color: #F4F4F4;
+  vertical-align: middle;
+}
+
+.DescriçãoProjeto3 {
+  background-color: #D7CEC7;
+  vertical-align: middle;
+}
+
+.linha{
+  background-color: #D7CEC7;
+}
+
+footer > h2{
+  padding-top: 28px;
 }
 
 h2 {
@@ -47,30 +85,36 @@ h2 {
   font-family: Staatliches;
   text-align: center;
   font-size: 48px;
-  padding-top: 32px;
+  padding-top: 48px;
   padding-bottom: 12px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-
 .imagem-esquerda{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   padding: 0px 100px 0px 100px;
   float: left;
 }
 
 .imagem-direita{
-  width: 35%;
-  height: 35%;
-  padding: 0 5% 0 5%;
+  width: 30%;
+  height: 44%;
+  padding: 50px 5% 0px 10%;
   float: right;
-  display: inline;
+}
+
+.imagem-centro{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
 }
 
 .texto-direita{
-  height: 300px;
+  height: 400px;
   margin: 0px;
   padding-right: 100px;
   padding-bottom: 36px;
@@ -83,13 +127,84 @@ h2 {
 
 .texto-esquerda{
   display: inline-block;
-  height: 300px;
-  margin: 0px;
+  vertical-align: middle;
+  line-height: 1.5;
+  margin: auto;
   width: 50%;
   padding-left: 5%;
-  padding-bottom: 36px;
-  vertical-align: middle;
+  padding-bottom: 75px;
+  padding-top: 50px;
   font-family: Balsamiq Sans;
   font-size: 24px;
+  text-align: justify;
+}
+
+.texto{
+  vertical-align: middle;
+  line-height: 1.5;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 75px;
+  padding-top: 50px;
+  font-family: Balsamiq Sans;
+  font-size: 24px;
+  text-align: justify;
+}
+
+
+.imagem-linha-esquerda {
+ float: left;
+ width: 35%;
+ padding-left: 10%;
+ padding-right: 5%;
+ padding-bottom: 50px;
+}
+
+.imagem-linha-direita {
+ float: left;
+ width: 35%;
+ padding-left: 5%;
+ padding-right: 10%;
+ padding-bottom: 50px;
+}
+
+.linha::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-family: Balsamiq Sans;
+  font-size: 18px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+.Sobre {
+  display: inline-block;
+  width: 100%;
+}
+
+.quemSou{
+  float: left;
+  width: 30%;
+}
+
+.contato{
+  float: right;
+}
+
+.quemSou, .contato{
+  display: inline;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 28px;
   text-align: justify;
 }

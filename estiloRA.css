@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 65px;
+  width: 100%;
+  background: #F4F4F4;
+  overflow: hidden;
+}
+
+nav a.setorPagina {
+  font-family: MuseoModerno;
+  font-size: 22px;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a.redesSociais {
+  background-color: #F4F4F4;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.Descrição {
+  background-color: #F4F4F4;
+  vertical-align: middle;
+}
+
+.Descrição h2{
+  margin-top: 36px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-family: Balsamiq Sans;
+  font-size: 18px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+.Sobre {
+  display: inline-block;
+  width: 100%;
+}
+
+.quemSou{
+  float: left;
+  width: 30%;
+}
+
+.contato{
+  float: right;
+}
+
+.quemSou, .contato{
+  display: inline;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 28px;
+  text-align: justify;
+}
