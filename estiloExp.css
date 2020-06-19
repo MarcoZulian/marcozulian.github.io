@@ -1,0 +1,95 @@
+nav {
+  position: fixed;
+  top: 0;
+  height: 65px;
+  width: 100%;
+  background: #D8EBA9;
+  overflow: hidden;
+}
+
+nav a.setorPagina {
+  font-family: MuseoModerno;
+  font-size: 22px;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a.redesSociais {
+  background-color: #D8EBA9;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.Descrição {
+  background-color: #DBD1A2;
+  vertical-align: middle;
+}
+
+.Descrição h2{
+  margin-top: 35px;
+}
+
+
+.DescriçãoProjeto {
+  background-color: #F5F1A2;
+  vertical-align: middle;
+}
+
+h2 {
+  width: 100%;
+  font-family: Staatliches;
+  text-align: center;
+  font-size: 48px;
+  padding-top: 32px;
+  padding-bottom: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.imagem-esquerda{
+  width: 300px;
+  height: 300px;
+  padding: 0px 100px 0px 100px;
+  float: left;
+}
+
+.imagem-direita{
+  width: 35%;
+  height: 35%;
+  padding: 0 5% 0 5%;
+  float: right;
+  display: inline;
+}
+
+.texto-direita{
+  height: 300px;
+  margin: 0px;
+  padding-right: 100px;
+  padding-bottom: 36px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Balsamiq Sans;
+  font-size: 24px;
+  text-align: justify;
+}
+
+.texto-esquerda{
+  display: inline-block;
+  height: 300px;
+  margin: 0px;
+  width: 50%;
+  padding-left: 5%;
+  padding-bottom: 36px;
+  vertical-align: middle;
+  font-family: Balsamiq Sans;
+  font-size: 24px;
+  text-align: justify;
+}
