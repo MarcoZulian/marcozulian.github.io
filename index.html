@@ -5,68 +5,138 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Staatliches" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Balsamiq+Sans" />
-    <link href="estilo.css" rel="stylesheet">
+    <link href="estiloExp.css" rel="stylesheet">
     <title>Portifólio Marco Zulian</title>
   </head>
 
   <body>
     <nav>
       <a class="setorPagina" href="#Descrição">Descrição</a>
-      <a class="setorPagina" href="#Disciplinas">Disciplinas</a>
+      <a class="setorPagina" href="#Projeto1">Projeto I</a>
+      <a class="setorPagina" href="#Projeto2">Projeto II</a>
+      <a class="setorPagina" href="#Projeto3">Projeto III</a>
+      <a class="setorPagina" href="#Projeto4">Projeto IV</a>
       <a class="setorPagina" href="#Sobre">Sobre</a>
       <a class="redesSociais" href="https://www.instagram.com/marcozulian1/" target="_blank"><img src="./Imagens/instagram.png" title="Instagram" alt="Instagram"></a>
       <a class="redesSociais" href="https://www.facebook.com/marco.zulian.79/" target="_blank"><img src="./Imagens/facebook.png" title="Facebook" alt="Facebook"></a>
     </nav>
 
+  <main>
     <a name="Descrição"></a><br>
     <div class="Descrição">
       <h2>Descrição</h2>
       <img class="imagem" src="./Imagens/Marco.jpeg">
       <p class="texto">
-        Portifólio de projetos apresentados pelo aluno Marco Antônio Barbosa
-         Zulian nas disciplinas do primeiro semestre do curso de Ciência da Computação
-         da Pontifícia Universidade Católica do Paraná (PUC-PR).<br><br>Este <em>site</em>
-         foi desenvolvido como parte da disciplina de Experiência Criativa: Navegando na
-         Computação.</p>
+        Oi, eu sou o Marco! Tenho 23 anos e sou estudante do último semestre de
+        engenharia civil na Universidade Federal de Santa Catarina (UFSC) e
+        recentemente comecei uma segunda graduação em Ciência da Computação,
+        na Pontifícia Universidade Católica do Paraná (PUC-PR). <br><br>
+        Sou apaixonado por tecnologia e espero um dia conseguir utilizá-la para
+        tornar a engenharia civil mais eficiente em seus processos e principalmente
+        menos dependente de recursos naturais. <br><br>
+        Este portifólio mostra alguns dos projetos em que estive envolvido.
+      </p>
     </div>
 
-    <a name="Disciplinas"></a>
-    <main>
-      <h2>Matérias primeiro semestre</h2>
-      <section class="container grid">
-        <a href="./expCriativa.html" class="ImagemMateria">
-          <figure>
-            <img src="./Imagens/icons8-itens-de-laboratório-50.png">
-            <figcaption>Experiência Criativa: Navegando na Computação</figcaption>
-          </figure>
-        </a>
-        <a href="./modFenFis.html" class="ImagemMateria">
-          <figure>
-            <img src="./Imagens/icons8-matemática-50.png">
-            <figcaption>Modelagem de Fenômenos Físicos</figcaption>
-          </figure>
-        </a>
-        <a href="./racAlg.html" class="ImagemMateria">
-          <figure>
-            <img src="./Imagens/icons8-informática-50.png">
-            <figcaption>Raciocínio Algorítmico</figcaption>
-          </figure>
-        </a>
-        <a href="./descEv.html" class="ImagemMateria">
-          <figure>
-            <img src="./Imagens/icons8-histórico-de-encomendas-50.png" class="Imagem">
-            <figcaption>Descoberta e Evolução da Computação</figcaption>
-          </figure>
-        </a>
-      </section>
-    </main>
+    <div class="DescriçãoProjeto1">
+      <a name="Projeto1"></a><br>
+      <h2>Projeto I - Invasion of the Feud</h2>
+      <p class="texto-esquerda">
+        Este projeto é um jogo que foi desenvolvido por uma equipe de 6 estudantes e entregue
+        em uma disciplina do primeiro semestre do curso de Ciência da Computação.<br><br>
+        Para programar o jogo, foi utilizada a ferramenta Construct, que utiliza <em> drag and drop </em>
+        para facilitar o desenvolvimento.<br><br>
+        Tendo sido o primeiro trabalho que entreguei no curso, fico bastante orgulhoso do resultado
+        obtido, pois o jogo é divertido e esteticamente bonito, vale à pena jogar um pouquinho! (<a href="https://invadeofthefeud.netlify.com/" target="_blank">link</a>)
+      </p>
+      <img class="imagem-direita" src="./Imagens/invasion.png">
+    </div>
+
+    <div class="DescriçãoProjeto1-2">
+      <img class="imagem-esquerda" src="./Imagens/invasion2.png">
+      <p class="texto-direita">
+          O jogo conta a história de um camponês que viveu no período feudal e ficou
+          furioso quando criaturas estranhas começam a invadir as terras
+          aonde ele cultivava alimentos e mesmo com insistentes pedidos seu rei não faz nada à respeito.<br><br>
+          A solução encontrada por esse camponês foi fazer justiça com as próprias
+          mãos, porém para isso ele terá que passar por monstros, vikings e pela
+          temida guarda real, para então enfrentar o rei.<br><br>
+          O jogo pode ser encontrado neste <a href="https://invadeofthefeud.netlify.com/" target="_blank">link.</a>
+      </p>
+    </div>
+
+    <div class="DescriçãoProjeto2">
+      <a name="Projeto2"></a><br>
+      <h2>Projeto II - Jogo da Memória</h2>
+      <p class="texto">
+        Neste projeto, também apresentado para uma disciplina do primeiro semestre do
+        curso de Ciência da Computação, foi solicitado que cada aluno desenvolvesse um jogo utilizando
+        a biblioteca Processing, da linguagem Java. <br><br>
+        Optei por fazer um jogo da memória que, apesar de ser um jogo simples, exigiu bastante trabalho,
+        porém o resultado final compensou! O jogo tem 3 dificuldades, que alteram o tamanho do tabuleiro,
+        e o trabalho envolveu manipulação de imagens, vídeos, textos e até de arquivos .json para que
+        os recordes pudessem ser armazenados mesmo quando o usuário fechar a aplicação.
+      </p>
+    </div>
+
+    <div class="DescriçãoProjeto2">
+      <img src="./Imagens/memoria.png" alt="Imagens jogo da memória" class="imagem-centro">
+    </div>
+
+    <div class="DescriçãoProjeto3">
+      <a name="Projeto3"></a><br>
+      <h2>Projeto III - Ferramenta Visual Studio</h2>
+      <p class="texto">
+          Neste projeto pude conhecer um pouco de uma ferramenta profissional de
+          desenvolvimento de <em>software</em>, o Visual Studio. <br><br>
+          Utilizando Windows Forms, desenvolvi uma espécie de "Paint", em que o usuário tem
+          a opção de desenhar ou apagar, podendo selecionar a espessura e a cor
+          da linha, carregar imagens de seu computador e salvar os seus desenhos. <br><br>
+          Para explorar um pouco a manipulação de arquivos em C++, também
+          foram criadas mais duas funcionalidades: janelas que simulam o cadastro e o login do usuário na ferramenta,
+          armazenando os usuários cadastrados em uma pasta local, e um controlador de áudio,
+          em que o usuário pode selecionar uma música e controlar o volume de reprodução.
+      </p>
+    </div>
+
+    <div class="linha">
+      <img src="./Imagens/visual2.PNG" alt="Imagens Visual Studio" class="imagem-linha-esquerda">
+      <img src="./Imagens/visual1.PNG" alt="Imagens Visual Studio" class="imagem-linha-direita">
+    </div>
+
+    <div class="DescriçãoProjeto2">
+      <a name="Projeto4"></a><br>
+      <h2>Projeto IV - Cena e animação em Pov-Ray</h2>
+      <p class="texto-esquerda">
+        Neste projeto tivemos que utilizar a ferramenta Pov-Ray para descrever uma cena e
+        gerar uma animação a partir dela.<br><br>
+        Mantendo as minhas raízes da engenharia civil, descrevi uma casa e para a animação
+        busquei, com o movimento da câmera e os áudios adicionados na edição, simular uma
+        pessoa saindo de um quarto no andar superior da casa, descendo as escadas e saindo
+        da residência.<br><br>
+        É um trabalho que me orgulho muito, pois nele consegui de certa forma juntar um
+        pouco das minhas duas graduações e o resultado, apesar de simples, me deixou bastante
+        satisfeito.<br><br>
+        A imagem ao lado mostra a cena criada e o vídeo abaixo, a animação criada a partir
+        dessa cena.
+      </p>
+      <img class="imagem-direita" src="./Imagens/pov-cena.png">
+    </div>
+    <div class="DescriçãoProjeto2">
+      <video width="1280" height="640" controls class="imagem-centro">
+         <source src="./Videos/anim-povray.mp4" type="video/mp4">
+         Problemas na exibição do vídeo.
+      </video>
+    </div>
+  </main>
+
     <a name="Sobre"></a><br>
     <footer>
       <h2>Sobre</h2>
       <div class="Sobre">
         <div class="quemSou">
           <h3>Quem sou?</h3>
-          <p>Aluno de primeiro semestre de Ciência da Computação da PUC-PR e do último semestre
+          <p>Aluno de segundo semestre de Ciência da Computação da PUC-PR e do último semestre
               em engenharia civil na UFSC.</p>
         </div>
         <div class="contato">
